@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>coctellavida.com</title>
+  <link rel="stylesheet" href="/CURSOS ONLINE/cursos_online.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..700,0..1,-50..200&display=swap">
+</head>
+
+<body>
+  <header>
+    <div class="nav_all1">
+      <div class="nav_all">
+        <div class="logo">
+          <a href="/INICIO/index.html" id="link_logo">
+            <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="logo_coctel" class="img1">
+          </a>
+        </div>
+        <div class="srch_nav">
+          <div class="menu_list">
+            <div class="menu_mobile" id="menu_mobile">
+              <ol>
+                <li><a href="/BLOG/Blog_Index.html"> Blog </a></li>
+                <li><a href="/RECETAS/recetas.html"> Recetas </a></li>
+                <li><a href="/CURSOS ONLINE/cursos_online.html"> Cursos online </a></li>
+                <li><a href="/EBOOKS/ebooks_cocteleria.html"> Ebooks </a></li>
+              </ol>
+              <div>
+                <button class="menu_cierre"><span class="material-symbols-outlined"
+                    id="menu_cierre">menu</span></button>
+              </div>
+
+              <input type="text" placeholder="Buscar cócteles..." id="navbar_srch">
+              <button class="search_busqueda" onclick="redirectToSearch()"><span class="material-symbols-outlined"
+                  id="search_busqueda">search</span></button>
+            </div>
+            <div class="buscador_nav">
+              <input type="text" placeholder=" Buscar cócteles.." class="srch_mobile" id="navbar_srch_mobile">
+              <button onclick="redirectToSearchMobile()"><span class="material-symbols-outlined">search</span></button>
+            </div>
+            <div class="menu">
+              <button id="menu-toggle">
+                <span class="material-symbols-outlined">menu</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main_principal">
+    <div class="section_cursos_fondo">
+    
+      <div class="texto_fondo">
+        <h2>CURSOS DE COCTELERIA Y MIXOLOGIA ONLINE</h2>
+        <p class="texto_1">EMPIEZA TU CARRERA</p>
+        <p class="texto_2">MEJORA TUS TECNICAS EN LA BARRA</p>
+      </div>
+      <a href="#cursos_disponibles_inter"><button>Ver Cursos</button></a>
+    </div>
+
+    <div class="cursos_disponibles">
+      <div class="disponible_cursos">
+        <h2>CURSOS DISPONIBLES</h2>
+        <p class="text_cursos_disponibles">¿Te gustaría ser bartender, mejorar tus habilidades, abrir tu propio bar o disfrutar de la coctelería como
+        hobby?</p>
+        <p class="text_cursos_disponibles">Tenemos el curso online ideal para ti.</p>
+        <span class="text_cursos_disponibles">¡Elige el que más te atraiga y comienza tu aventura en la mixología!</span>
+      </div>
+
+      <div class="cursos_disponibles inter" id="cursos_disponibles_inter">
+        <div class="cursos_disponibles2"  id="cursos_disponibles1">
+          <h4>CURSO DE MIXOLOGÍA</h4>
+          <p>¿Quieres ser mixólogo?</p>
+          <p>¿Crear las mejores bebidas?</p>
+          <p>Si te apasiona el mundo de la mixologia molecular.</p>
+          <p>¡¡Inscribite!!</p>
+          <a href="https://hotmart.com/es/marketplace/productos/experto-en-cocteleria-y-mixologia/X76354686D?ref=F96516185T"><button>Más Información</button></a>
+        </div>
+        
+        <div class="cursos_disponibles2" id="cursos_disponibles2">
+          <h4>CURSO DE COCTELERÍA CLASICA</h4>
+          <p>¿Quieres ser bartender?</p>
+          <p>¿Preparar las mejores bebidas?</p>
+          <p>Este curso 100% con certificado es para ti.</p>
+          <p>Más de 40 lecciones y 15 recursos, podrás iniciarte en la coctelería profesional, clásica y de vanguardia.</p>
+          <a href="https://cursosdecocina.tv/cocteleria-clasica-online/?ref=I75579838I"><button>Más Información</button></a>
+        </div>        
+      </div>
+    </div>
+
+    <div class="preguntas_frecuentes">
+      <h2>Preguntas Frecuentes</h2>
+      <ul class="faq-list">
+        <li>
+          <button class="faq-question">¿Cuándo comienza el curso y en qué horarios?</button>
+          <div class="faq-answer">
+            <p>Inmediatamente luego del pago recibirás tu acceso para comenzar este curso. Podrás crear tu propia contraseña y enviaremos este respaldo a tu correo. Es un curso online que se adapta a tu ritmo, tú decide cuándo comenzar y cuándo terminar. No tiene un horarios definidos ya que todo el contenido ya está cargado para ti.</p>
+          </div>
+        </li>
+        <li>
+          <button class="faq-question">¿Cuánto tiempo tengo para acceder al curso?</button>
+          <div class="faq-answer">
+            <p>¡ACCESO DE POR VIDA! Tendrás acceso ilimitado a este curso durante el tiempo que desee y podrás adelantar o retroceder cada receta las veces que quieras.</p>
+          </div>
+        </li>
+        <li>
+          <button class="faq-question">¿Qué necesito para el curso?</button>
+          <div class="faq-answer">
+            <p>Internet, un computador, tablet o celular. Pero lo más importante son las ganas de aprender.</p>
+          </div>
+        </li>
+        <li>
+          <button class="faq-question">¿Debo invertir en utensilios?</button>
+          <div class="faq-answer">
+            <p>No, nuestro fin no es el que te pongas a comprar materiales o utensilios; queremos que primero aprendas y luego, decidas con conocimiento que recetas te gustarían hacer, que utensilios necesitarás, cuales tienes y cuales deberías comprar.</p>
+          </div>
+        </li>
+        <li>
+          <button class="faq-question">¿Me dan certificado?</button>
+          <div class="faq-answer">
+            <p>Claro que si. Cuando finalizas el cursos te entregamos un certifiaco de participacion para tu CV</p>
+          </div>
+        </li>
+        <li>
+          <button class="faq-question">¿Cómo es cada lección?</button>
+          <div class="faq-answer">
+            <p>En cada lección encontrarás un video tutorial de la receta paso a paso, muy simple y con una duración entre 2 a 10 min. Podrás descargar el material en pdf con los ingredientes y preparación.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <section class="footer-section">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="Logo_coctel">
+        </div>
+        <div class="footer-text">
+          <p>Derechos reservados @copyright 2024</p>
+          <p>Coctelería la vida</p>
+        </div>
+        <div class="footer-socials">
+          <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/Instagram-Logo.png" alt="Instagram" class="instagram"></a>
+          <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_facebook.png" alt="Facebook"></a>
+          <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_tiktok.png" alt="Tiktok"></a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+  <script src="/CURSOS ONLINE/cursos_online.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

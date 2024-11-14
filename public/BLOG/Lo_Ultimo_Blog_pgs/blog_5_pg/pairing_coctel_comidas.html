@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coctellavida.com</title>
+    <link rel="stylesheet" href="/BLOG/Lo_Ultimo_Blog_pgs/blog_5_pg/pairing_coctel_comidas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..700,0..1,-50..200&display=swap">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav_all1">
+          <div class="nav_all">
+            <div class="logo">
+              <a href="/INICIO/index.html" id="link_logo">
+                <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="logo_coctel" class="img1">
+              </a>
+            </div>
+            <div class="srch_nav">
+              <div class="menu_list">
+                <div class="menu_mobile" id="menu_mobile">
+                  <ol>
+                    <li><a href="/BLOG/Blog_Index.html"> Blog </a></li>
+                    <li><a href="/RECETAS/recetas.html"> Recetas </a></li>
+                    <li><a href="/CURSOS ONLINE/cursos_online.html"> Cursos online </a></li>
+                    <li><a href="/EBOOKS/ebooks_cocteleria.html"> Ebooks </a></li>
+                  </ol>
+                  <div>
+                    <button class="menu_cierre"><span class="material-symbols-outlined"
+                        id="menu_cierre">menu</span></button>
+                  </div>
+    
+                  <input type="text" placeholder="Buscar cócteles..." id="navbar_srch">
+                  <button class="search_busqueda" onclick="redirectToSearch()"><span class="material-symbols-outlined"
+                      id="search_busqueda">search</span></button>
+                </div>
+                <div class="buscador_nav">
+                  <input type="text" placeholder=" Buscar cócteles.." class="srch_mobile" id="navbar_srch_mobile">
+                  <button onclick="redirectToSearchMobile()"><span class="material-symbols-outlined">search</span></button>
+                </div>
+                <div class="menu">
+                  <button id="menu-toggle">
+                    <span class="material-symbols-outlined">menu</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <main class="main-container">
+        <div class="main-container">
+            <div class="main-content">
+                <h3 class="title_mix">Pairing de Cócteles y Comidas</h3>
+                <p class="introdux_mixology">El arte del pairing de cócteles y comidas consiste en combinar bebidas y platos de tal manera que se complementen y realcen mutuamente sus sabores. Este concepto ha ganado popularidad en los últimos años, a medida que mixólogos y chefs buscan ofrecer experiencias gastronómicas más completas y sofisticadas.</p>
+                <div class="img_introdux">
+                    <img src="/BLOG/Lo_Ultimo_Blog_pgs/blog_5_pg/img_blog_5_pairing/img_pearing_coctel_comida.jpg" alt="Pairing de Cócteles y Comidas">
+                </div>
+    
+                <h3 class="list_ing_herra">Historia del Pairing</h3>
+                <p>Aunque el maridaje de alimentos y bebidas es una práctica antigua, el uso de cócteles en este contexto es relativamente nuevo. Los cócteles comenzaron a ser una parte integral de la experiencia gastronómica durante la era de la Prohibición en los Estados Unidos, cuando los bartenders necesitaban creatividad para hacer que las bebidas alcohólicas de baja calidad fueran más agradables. Con el tiempo, esta práctica evolucionó hasta convertirse en una forma de arte culinario.</p>
+    
+                <div class="pairing-sections">
+                    <div class="benefits">
+                        <h4>Beneficios del Pairing de Cócteles y Comidas</h4>
+                        <ul>
+                            <li><b>Realza los sabores</b>: Una combinación adecuada puede intensificar los sabores, creando una experiencia gustativa más rica.</li>
+                            <li><b>Equilibra los sabores</b>: Ayuda a equilibrar sabores fuertes o dominantes, haciendo que la experiencia gastronómica sea más agradable.</li>
+                            <li><b>Experimentación y creatividad</b>: Ofrece una oportunidad para experimentar con nuevas combinaciones y sabores.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="principles">
+                        <h4>Principios Básicos del Pairing de Cócteles y Comidas</h4>
+                        <ul>
+                            <li><b>Equilibrio de Sabores</b>: Asegúrate de que ni la comida ni el cóctel dominen al otro. Por ejemplo, un plato picante puede complementarse con un cóctel dulce.</li>
+                            <li><b>Ingredientes Compartidos</b>: Usar ingredientes similares en la comida y el cóctel puede crear una sensación de armonía en el paladar.</li>
+                            <li><b>Contraste y Complemento</b>: Jugar con contrastes (ácido con dulce) y complementos (hierbas frescas con ingredientes cítricos) puede ser muy efectivo.</li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="/BLOG/Lo_Ultimo_Blog_pgs/blog_5_pg/img_blog_5_pairing/coctel_margarita.png" alt="Pairing de Cócteles y Comidas">
+                <h3 class="list_ing_herra">Ejemplos de Pairing</h3>
+                <div class="pairing-example">
+                    <h4>Cóctel Margarita con Tacos de Pescado</h4>
+    
+                    <div class="coctel_pairing">
+                        <h5>Cóctel Margarita</h5>
+                        <div class="pairing-container">
+                            <div class="pairing-section">
+                                <h6>Ingredientes</h6>
+                                <ul>
+                                    <li>2 oz de tequila</li>
+                                    <li>1 oz de jugo de lima fresco</li>
+                                    <li>1 oz de licor de naranja</li>
+                                    <li>Sal para escarchar el vaso</li>
+                                    <li>Hielo</li>
+                                </ul>
+                            </div>
+                            <div class="pairing-section">
+                                <h6>Instrucciones</h6>
+                                <ol>
+                                    <li>Mezcla tequila, jugo de lima y licor de naranja en una coctelera con hielo.</li>
+                                    <li>Agita bien y cuela en un vaso escarchado con sal y lleno de hielo.</li>
+                                    <li>Decora con una rodaja de lima.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="pairing">
+                        <h5>Pairing con Tacos de Pescado</h5>
+                        <div class="pairing-container">
+                            <div class="pairing-section">
+                                <h6>Ingredientes</h6>
+                                <ul>
+                                    <li>Filetes de pescado (tilapia, bacalao)</li>
+                                    <li>Tortillas de maíz</li>
+                                    <li>Repollo rallado</li>
+                                    <li>Crema agria</li>
+                                    <li>Jugo de lima</li>
+                                    <li>Cilantro fresco</li>
+                                    <li>Especias (comino, pimentón, ajo en polvo)</li>
+                                </ul>
+                            </div>
+                            <div class="pairing-section">
+                                <h6>Instrucciones</h6>
+                                <ol>
+                                    <li>Condimenta los filetes de pescado con las especias y cocínalos a la parrilla.</li>
+                                    <li>Calienta las tortillas y rellénalas con el pescado, repollo, crema agria y jugo de lima.</li>
+                                    <li>Decora con cilantro fresco.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="/BLOG/Lo_Ultimo_Blog_pgs/blog_5_pg/img_blog_5_pairing/tacos_pescado_coctel.avif" alt="Pairing de Cócteles y Comidas">
+                <p>El pairing de cócteles y comidas ofrece una experiencia gastronómica única y enriquecedora. Siguiendo algunos principios básicos y experimentando con diferentes combinaciones, puedes descubrir maridajes sorprendentes que deleitarán tu paladar y el de tus invitados. ¡Anímate a explorar el mundo del pairing y a disfrutar de nuevas sensaciones! 🍹🥘✨</p>
+            </div>
+        </div>
+    </main>
+    
+
+
+
+    <footer>
+        <section class="footer-section">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="Logo_coctel">
+                </div>
+                <div class="footer-text">
+                    <p>Derechos reservados &copy; 2024</p>
+                    <p>Coctelería la vida</p>
+                </div>
+                <div class="footer-socials">
+                    <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/Instagram-Logo.png" alt="Instagram"
+                            class="instagram"></a>
+                    <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_facebook.png" alt="Facebook"></a>
+                    <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_tiktok.png" alt="Tiktok"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="/BLOG/Lo_Ultimo_Blog_pgs/blog_5_pg/pairing_coctel_comidas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

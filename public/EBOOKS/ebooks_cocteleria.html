@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>coctellavida.com</title>
+  <link rel="stylesheet" href="/EBOOKS/ebooks_cocteleria.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..700,0..1,-50..200&display=swap">
+</head>
+
+<body>
+  <header>
+    <div class="nav_all1">
+      <div class="nav_all">
+        <div class="logo">
+          <a href="/INICIO/index.html" id="link_logo">
+            <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="logo_coctel" class="img1">
+          </a>
+        </div>
+        <div class="srch_nav">
+          <div class="menu_list">
+            <div class="menu_mobile" id="menu_mobile">
+              <ol>
+                <li><a href="/BLOG/Blog_Index.html"> Blog </a></li>
+                <li><a href="/RECETAS/recetas.html"> Recetas </a></li>
+                <li><a href="/CURSOS ONLINE/cursos_online.html"> Cursos online </a></li>
+                <li><a href="/EBOOKS/ebooks_cocteleria.html"> Ebooks </a></li>
+              </ol>
+              <div>
+                <button class="menu_cierre"><span class="material-symbols-outlined"
+                    id="menu_cierre">menu</span></button>
+              </div>
+
+              <input type="text" placeholder="Buscar cócteles..." id="navbar_srch">
+              <button class="search_busqueda" onclick="redirectToSearch()"><span class="material-symbols-outlined"
+                  id="search_busqueda">search</span></button>
+            </div>
+            <div class="buscador_nav">
+              <input type="text" placeholder=" Buscar cócteles.." class="srch_mobile" id="navbar_srch_mobile">
+              <button onclick="redirectToSearchMobile()"><span class="material-symbols-outlined">search</span></button>
+            </div>
+            <div class="menu">
+              <button id="menu-toggle">
+                <span class="material-symbols-outlined">menu</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main_principal">
+    <section class="seccion_productos">
+        <h2>RECETAS</h2>
+        <div class="contenedor_cajas">
+            <div class="caja_producto">
+                <h3>1000 Coctéles</h3>
+                <img src="/EBOOKS/ebooks_cocteleria_imgs/Captura de pantalla 2024-11-12 213525.png" alt="Producto 1">
+                <p>Recetas, técnicas, reglas, cócteles, conceptos.</p>
+                <a href="https://wa.link/0yrq5o"><button>OBTENER</button></a>
+            </div>
+            <div class="caja_producto">
+                <h3>Coctéles con Vino</h3>
+                <img src="/EBOOKS/ebooks_cocteleria_imgs/Captura de pantalla 2024-11-12 213508.png" alt="Producto 2">
+                <p>6 mejores cócteles con vino espumoso</p>
+                <a href="https://wa.link/gcps8t"><button>OBTENER</button></a>
+            </div>
+            <div class="caja_producto">
+                <h3>Coctéles con Cerveza</h3>
+                <img src="/EBOOKS/ebooks_cocteleria_imgs/Captura de pantalla 2024-11-12 213440.png" alt="Producto 3">
+                <p>Para los amantes de la cerveza.</p>
+                <a href="https://wa.link/egfoli"><button>OBTENER</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Segunda sección -->
+    <section class="seccion_productos">
+        <h2>EBOOKS PROFESIONALES</h2>
+        <div class="contenedor_cajas">
+            <div class="caja_producto">
+                <h3>Coctelería Profesional</h3>
+                <img src="/EBOOKS/ebooks_cocteleria_imgs/Captura de pantalla 2024-11-12 220232.png" alt="Producto 4">
+                <p>Tecnicas Profesionales de Coctéleria Basico - Avanzado</p>
+                <a href="https://tomatudrink.com/cocteleriaentusmanos/?ref=D89215340E"><button>Saber Más</button></a>
+            </div>
+
+            <div class="caja_producto">
+                <h3>Manual para Bartender</h3>
+                <img src="/EBOOKS/ebooks_cocteleria_imgs/3.png" alt="Producto 6">
+                <p>Todo lo que necesitas sabes para ser Bartender</p>
+                <a href="https://pachecostngo2000.kpages.online/manualdecocteleriaclasica?ref=L76811882U"><button>Saber Más</button></a>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+  <footer>
+    <section class="footer-section">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="Logo_coctel">
+        </div>
+        <div class="footer-text">
+          <p>Derechos reservados @copyright 2024</p>
+          <p>Coctelería la vida</p>
+        </div>
+        <div class="footer-socials">
+          <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/Instagram-Logo.png" alt="Instagram" class="instagram"></a>
+          <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_facebook.png" alt="Facebook"></a>
+          <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_tiktok.png" alt="Tiktok"></a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="/EBOOKS/ebooks_cocteleria.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

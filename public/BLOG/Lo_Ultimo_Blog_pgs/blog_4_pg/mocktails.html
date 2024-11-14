@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coctellavida.com</title>
+    <link rel="stylesheet" href="/BLOG/Lo_Ultimo_Blog_pgs/blog_4_pg/mocktails.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..700,0..1,-50..200&display=swap">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav_all1">
+          <div class="nav_all">
+            <div class="logo">
+              <a href="/INICIO/index.html" id="link_logo">
+                <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="logo_coctel" class="img1">
+              </a>
+            </div>
+            <div class="srch_nav">
+              <div class="menu_list">
+                <div class="menu_mobile" id="menu_mobile">
+                  <ol>
+                    <li><a href="/BLOG/Blog_Index.html"> Blog </a></li>
+                    <li><a href="/RECETAS/recetas.html"> Recetas </a></li>
+                    <li><a href="/CURSOS ONLINE/cursos_online.html"> Cursos online </a></li>
+                    <li><a href="/EBOOKS/ebooks_cocteleria.html"> Ebooks </a></li>
+                  </ol>
+                  <div>
+                    <button class="menu_cierre"><span class="material-symbols-outlined"
+                        id="menu_cierre">menu</span></button>
+                  </div>
+    
+                  <input type="text" placeholder="Buscar cócteles..." id="navbar_srch">
+                  <button class="search_busqueda" onclick="redirectToSearch()"><span class="material-symbols-outlined"
+                      id="search_busqueda">search</span></button>
+                </div>
+                <div class="buscador_nav">
+                  <input type="text" placeholder=" Buscar cócteles.." class="srch_mobile" id="navbar_srch_mobile">
+                  <button onclick="redirectToSearchMobile()"><span class="material-symbols-outlined">search</span></button>
+                </div>
+                <div class="menu">
+                  <button id="menu-toggle">
+                    <span class="material-symbols-outlined">menu</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <main class="main-container">
+        <div class="main-container">
+            <div class="main-content">
+                <h3 class="title_mix">Cócteles Sin Alcohol</h3>
+                <p class="introdux_mixology">Los cócteles sin alcohol, también conocidos como "mocktails", son una excelente opción para aquellos que desean disfrutar de una bebida deliciosa y festiva sin los efectos del alcohol. Estos cócteles ofrecen toda la creatividad y el sabor de los cócteles tradicionales, pero sin ningún contenido alcohólico.</p>
+                <div class="img_introdux">
+                    <img src="/BLOG/Lo_Ultimo_Blog_pgs/blog_4_pg/img_blog_4_mocktails/mocktail_first.jpeg" alt="Cócteles sin Alcohol">
+                </div>
+                <ul>
+                    <li class="list_ing_herra" ><h3 class="list_ing_herra">Historia de los Mocktails</h3></li>
+                    <p>Los mocktails han ganado popularidad en los últimos años, especialmente con el auge de las tendencias de bienestar y la demanda de opciones saludables. Aunque los cócteles sin alcohol existen desde hace mucho tiempo, su reconocimiento y apreciación han crecido significativamente en el siglo XXI.</p>
+    
+                    <li class="list_ing_herra" id="list_ing_herra"><h3 class="list_ing_herra">Beneficios de los Cócteles Sin Alcohol</h3></li>
+                    <ul>
+                        <li>Salud: Al no contener alcohol, estos cócteles son más saludables y adecuados para cualquier persona.</li>
+                        <li>Inclusividad: Perfectos para eventos donde participan personas de todas las edades o aquellos que prefieren evitar el alcohol.</li>
+                        <li>Versatilidad: Puedes experimentar con una amplia variedad de ingredientes frescos y naturales.</li>
+                    </ul>
+    
+                    <li class="list_ing_herra" id="list_ing_herra" ><h3 class="list_ing_herra">Ingredientes Comunes en Mocktails</h3></li>
+                    <ul>
+                        <li>Jugos de frutas: Naranja, piña, arándano, limón, lima, entre otros.</li>
+                        <li>Refrescos y sodas: Ginger ale, agua con gas, tónica.</li>
+                        <li>Hierbas y especias: Menta, albahaca, jengibre, canela.</li>
+                        <li>Otros: Jarabes (simple, granadina), purés de frutas, té, café.</li>
+                    </ul>
+                    <div class="img_introdux">
+                        <img src="/BLOG/Lo_Ultimo_Blog_pgs/blog_4_pg/img_blog_4_mocktails/refresco_mocktail.jpg" alt="Ingredientes Mocktails">
+                    </div>
+    
+                    <li class="list_ing_herra" ><h3 class="list_ing_herra">Recetas Populares de Mocktails</h3></li>
+    
+                    <div class="mocktail">
+                        <h4>Mojito sin Alcohol</h4>
+                        <div class="mocktail-container">
+                            <div class="mocktail-section">
+                                <h5>Ingredientes</h5>
+                                <ul>
+                                    <li>Hojas de menta fresca</li>
+                                    <li>1 cucharada de azúcar</li>
+                                    <li>1/2 lima, cortada en trozos</li>
+                                    <li>Agua con gas</li>
+                                    <li>Hielo</li>
+                                </ul>
+                            </div>
+                            <div class="mocktail-section">
+                                <h5>Instrucciones</h5>
+                                <ol>
+                                    <li>Coloca las hojas de menta y el azúcar en un vaso.</li>
+                                    <li>Añade los trozos de lima y machaca suavemente.</li>
+                                    <li>Llena el vaso con hielo y completa con agua con gas.</li>
+                                    <li>Remueve suavemente y adorna con una ramita de menta.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="img_introdux">
+                            <img src="/BLOG/Lo_Ultimo_Blog_pgs/blog_4_pg/img_blog_4_mocktails/mojito_mocktail.jpeg" alt="Mojito sin Alcohol">
+                        </div>
+                    </div>
+    
+                    <div class="mocktail">
+                        <h4>Cóctel de Frutas Tropicales</h4>
+                        <div class="mocktail-container">
+                            <div class="mocktail-section">
+                                <h5>Ingredientes</h5>
+                                <ul>
+                                    <li>1/2 taza de jugo de piña</li>
+                                    <li>1/2 taza de jugo de naranja</li>
+                                    <li>1/4 taza de jugo de arándano</li>
+                                    <li>Hielo</li>
+                                    <li>Trozos de frutas tropicales (opcional)</li>
+                                </ul>
+                            </div>
+                            <div class="mocktail-section">
+                                <h5>Instrucciones</h5>
+                                <ol>
+                                    <li>Mezcla los jugos en una coctelera con hielo.</li>
+                                    <li>Agita bien y cuela en un vaso.</li>
+                                    <li>Añade trozos de frutas tropicales para decorar.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="img_introdux" id="img_introdux">
+                            <img src="/BLOG/Lo_Ultimo_Blog_pgs/blog_4_pg/img_blog_4_mocktails/mocktail_tripical_frutas.jpg" alt="Cóctel de Frutas Tropicales">
+                            <p>Los cócteles sin alcohol son una opción fantástica para cualquier ocasión, ofreciendo una experiencia deliciosa y visualmente atractiva sin los efectos del alcohol. Ya sea en una fiesta, una reunión familiar o simplemente para disfrutar en casa, los mocktails son una manera perfecta de brindar y disfrutar.</p>
+                        </div>
+                    </div>
+                
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+    
+
+    <footer>
+        <section class="footer-section">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/INICIO/IMAGENES/LOGO/Logo_coctel.png" alt="Logo_coctel">
+                </div>
+                <div class="footer-text">
+                    <p>Derechos reservados &copy; 2024</p>
+                    <p>Coctelería la vida</p>
+                </div>
+                <div class="footer-socials">
+                    <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/Instagram-Logo.png" alt="Instagram"
+                            class="instagram"></a>
+                    <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_facebook.png" alt="Facebook"></a>
+                    <a href=""><img src="/INICIO/IMAGENES/pagina_inicio/logo_tiktok.png" alt="Tiktok"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="/BLOG/Lo_Ultimo_Blog_pgs/blog_4_pg/mocktails.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
